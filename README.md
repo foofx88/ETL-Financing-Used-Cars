@@ -1,21 +1,33 @@
-Project Title: Financing Used Cars
-Team Members: 
-FX Foo
-Helen Amin
+<h1><b>Project Title:</b> Financing Used Cars 🚗🚙🚐</h1>
+<img src="https://bestcash4cars.com.au/wp-content/uploads/2020/11/Main-page-top-photo.png" alt="Used Cars Money" width="360" height="200" align="right">
 
-Project Description/ Outline: 
-Create an educational dashboard to guide potential buyers in making the right decision when it comes to buying a car with finance. Analyse between comparison loans provided by car dealer and financial institution.
+<h3><b>Project Description/ Outline:</b></h3>
+<p>Create an educational dashboard to guide potential buyers in making the right decision when it comes to buying a car with finance. Analyse between comparison loans provided by car dealer and financial institution.</p>
+  
+  <h3><b>Contributors:</b></h3>
+<table>
+  <tr>
+    <td align="center" margin=none><a href="https://github.com/helenamin"><img src="https://avatars.githubusercontent.com/u/78719440?v=4" width=120px alt="profile_image"/></br><b>Helen Amin</b></a></td>
+    <td align="center" margin=none><a href="https://github.com/foofx88"><img src="https://avatars.githubusercontent.com/u/78995824?v=4" width=120px alt="profile_image"/></br><b>FangXuan Foo</b></a></td>
+  </tr>
+  <tr><td colspan="2">Contributions:</td></tr>
+  <tr><td colspan="2"> Data scraping, Creation of Database to store scraped data, ETL on data and presenting the report in word doc
+  </td></tr>
+  
+<table />
 
-Dataset to be used:
-https://www.westsideauto.com.au/vehicles/list?q=condition:used
-https://www.finder.com.au/car-loans
+<h3>Transformations performed:</h3>
+<ul>
+<li>Data Joining: Combine data from used cars site with their weekly payment and the comparison rates from the 14 financial institution listed from Finder.com.au.</li>
+<li>Data cleaning: Drop used cars that have the price below $15,000.</li>
+<li>Data Aggregation: Get price of Used Car and calculate it against each comparison rate provided by the financial institutions.</li>
+</ul>
 
-Transformations to be performed:
--	Data Joining: Combine data from used cars site with their weekly payment and the comparison rates from the 14 financial institution listed from Finder.com.au.
--	Data cleaning: Drop used cars that have the price below $10,000 .
--	Data Aggregation: Get price of Used Car and calculate it against each comparison rate provided by the financial institutions.
+<h3>Preview:</h3>
+<i>This section is in progress and will be filled with previews of the report</i>  
 
-Rough breakdown of tasks:
-Data Scraping – FX and Helen (Jupyter Notebooks)
-Create Database – FX and Helen (SQL – Tables and etc.)
-Reporting – FX and Helen (Word Doc or HTML)
+<h3>Data obtained from:</h3>
+<ul>
+<li>https://www.westsideauto.com.au/vehicles/list?q=condition:used</li>
+<li>https://www.finder.com.au/car-loans</li>
+</ul>
