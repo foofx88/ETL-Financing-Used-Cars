@@ -17,10 +17,21 @@
 <table />
 
 <h3>Transformations performed:</h3>
+Data Joining:
 <ul>
-<li>Data Joining: Combine data from used cars site with their weekly payment and the comparison rates from the 14 financial institution listed from Finder.com.au.</li>
-<li>Data cleaning: Drop used cars that have the price below $15,000.</li>
-<li>Data Aggregation: Get price of Used Car and calculate it against each comparison rate provided by the financial institutions.</li>
+<li>Combine comparison rate scraped from used car site and the financial institution listed from Finder.com.au</li>
+</ul>
+
+Data Cleaning:
+<ul>
+<li>Removed financial institutions that provides "New" car loan</li>
+<li>Removed unnecessary symbols from the financial institution names to enable usage as columns in SQL</li>
+</ul>  
+
+Data Aggregation:
+<ul>
+<li>Get total price of Used Car and calculate it against each comparison rate provided by the financial institutions</li>
+<li>Created equation for Monthly repayments and input in the combined dataFrame</li>
 </ul>
 
 <h3>Preview:</h3>
