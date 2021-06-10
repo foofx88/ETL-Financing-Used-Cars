@@ -64,3 +64,5 @@ Query in SQL:
 <li>https://www.westsideauto.com.au/vehicles/list?q=condition:used</li>
 <li>https://www.finder.com.au/car-loans</li>
 </ul>
+
+To read the report on the project, please use the following <a href="https://github.com/foofx88/ETL-Financing-Used-Cars/blob/main/ETLProject-Financing_Used_Car_Report.docx">link</a>.
