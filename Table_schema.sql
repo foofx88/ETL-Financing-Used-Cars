@@ -1,10 +1,12 @@
 -- Table schema for car_loans
 -- initialise table
+
+--all data for the table are imported via Python using .to_sql() method
 DROP TABLE car_loans;
 
 CREATE TABLE car_loans
 (
-    index VARCHAR NOT NULL ,
+    index VARCHAR NOT NULL PRIMARY KEY,
     name VARCHAR NOT NULL,
     price DOUBLE PRECISION NOT NULL,
     deposit DOUBLE PRECISION NOT NULL,
@@ -21,8 +23,12 @@ CREATE TABLE car_loans
     "Symple Loans Personal Loan" DOUBLE PRECISION NOT NULL,
     "RACV Used Car Loans" DOUBLE PRECISION NOT NULL,
     "Macquarie Car Loan For " DOUBLE PRECISION NOT NULL
-    PRIMARY KEY (index)
+    
 );
 
 --checking if all values are imported into tables
 SELECT * FROM car_loans;
+
+--filter cars by price over $15000
+SELECT * FROM car_loans
+WHERE price > 15000;
