@@ -17,25 +17,47 @@
 <table />
 
 <h3>Transformations performed:</h3>
+Data Scraping
+<img src="/screenshots/scrape1.jpg"/>
+<img src="/screenshots/scrape2.JPG"/>
+<img src="/screenshots/scrape3.JPG"/>
+
+
+
 Data Joining:
 <ul>
 <li>Combine comparison rate scraped from used car site and the financial institution listed from Finder.com.au</li>
+  <img src="/screenshots/concatenation.JPG"/>
 </ul>
 
 Data Cleaning:
 <ul>
 <li>Removed financial institutions that provides "New" car loan</li>
 <li>Removed unnecessary symbols from the financial institution names to enable usage as columns in SQL</li>
+    <img src="/screenshots/cleaned.JPG"/>
+  
 </ul>  
 
 Data Aggregation:
 <ul>
 <li>Get total price of Used Car and calculate it against each comparison rate provided by the financial institutions</li>
 <li>Created equation for Monthly repayments and input in the combined dataFrame</li>
+  <img src="/screenshots/monthly_calc.JPG"/>
 </ul>
 
-<h3>Preview:</h3>
-<i>This section is in progress and will be filled with previews of the report</i>  
+SQL Table Schema:
+
+<img src="/screenshots/sql.JPG"/>
+
+Export to SQL:
+
+<img src="/screenshots/exported.JPG"/>
+
+Query in SQL:
+
+<img src="/screenshots/sql_filter.JPG"/>
+
+
 
 <h3>Data obtained from:</h3>
 <ul>
